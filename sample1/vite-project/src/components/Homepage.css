@@ -1,0 +1,142 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stretch the main container fully */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    background: linear-gradient(to right, #007bff, #0056b3); /* Example background */
+}
+
+/* Make sure the card inside stretches properly */
+.card {
+    width: 100%; /* Take full width */
+    height: 100%; /* Take full height */
+    max-width: 800px; /* Prevent it from being too wide */
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Spread content evenly */
+}
+
+  
+  .homepage-container {
+    max-width: 500px;
+    margin: auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b82c4;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .profile-icon, .location-icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .welcome-text h2 {
+    margin: 0;
+  }
+  
+  .search-bar {
+    margin: 15px 0;
+  }
+  
+  .search-bar input {
+    width: 95%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .categories-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .category-card {
+    text-align: center;
+    background: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .category-card img {
+    width: 100%;
+    border-radius: 8px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  .category-card p {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .more-button {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .footer-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .footer-buttons button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .nearby-volunteer {
+    background-color: #3b82c4;
+  }
+  
+  .urgent-help {
+    background-color: #ff4d4d;
+  }
+  
+  .nearby-volunteer:hover {
+    background-color: #2565a8;
+  }
+  
+  .urgent-help:hover {
+    background-color: #cc0000;
+  }
+  
