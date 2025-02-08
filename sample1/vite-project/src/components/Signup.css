@@ -1,89 +1,52 @@
-/* Ensures the page takes full height */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-/* Full-screen background */
 .signup-page {
   background-color: #4a90e2; /* Matching blue background */
   color: white;
   text-align: center;
-  height: 100vh; /* Takes full viewport height */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
 }
 
-/* Header Style */
 .signup-page h2 {
-  font-size: 28px;
-  margin-bottom: 20px;
+  font-size: 24px;
 }
 
-/* Paragraph Style */
 .signup-page p {
   font-size: 16px;
-  margin-top: 10px;
 }
 
-/* Image Styling */
 .signup-img {
   max-width: 250px; /* Adjust size as needed */
-  margin-bottom: 30px; /* Space between image and form */
 }
 
-/* Form Container Styling */
-.signup-container {
-  background: rgba(255, 255, 255, 0.9); /* Light white background */
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-  width: 100%;
-  max-width: 400px;
-}
-
-/* Button Styling */
+/* Sign Up Button */
 .btn-primary {
   background-color: #6cb2eb;
   border: none;
-  padding: 12px;
   font-size: 18px;
-  color: white;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  width: 100%;
-  max-width: 300px; /* Limit max width */
 }
 
-/* Button Hover Effects */
 .btn-primary:hover {
   background-color: #569dd8;
 }
 
-/* Error Message Styling */
-.error-message {
-  color: red;
-  font-size: 14px;
-  margin-bottom: 20px;
+/* Login Button - similar style to Sign Up */
+.btn-login {
+  background-color: #6cb2eb;
+  border: none;
+  font-size: 18px;
 }
 
-/* Ensure form is responsive */
-@media (max-width: 600px) {
-  .signup-page {
-    padding: 15px;
-  }
-
-  .signup-container {
-    width: 90%;
-    padding: 20px;
-  }
-
-  .btn-primary {
-    font-size: 16px;
-  }
+.btn-login:hover {
+  background-color: #569dd8;
 }
+
+/* Optional: You can further style the button if needed */
+.btn-login,
+.btn-primary {
+  border-radius: 50px;
+  padding: 12px 24px;
+}
+
+.btn-login:focus,
+.btn-primary:focus {
+  outline: none; /* Remove outline when focused */
+}
+

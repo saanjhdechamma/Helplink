@@ -1,16 +1,28 @@
 import React from "react";
 import "./Homepage.css";
 
+// Import images
+import img1 from "../images/consultation.png";
+import img2 from "../images/stroke.png";
+import img3 from "../images/skin_conditions.png";
+import img4 from "../images/emergency.png";
+import img5 from "../images/breathing_problem.png";
+import img6 from "../images/heart_disease.png";
+import img7 from "../images/diabetes.png";
+import img8 from "../images/bleeding.png";
+import img9 from "../images/arthritis.png";
+
+// Categories with correct imported images
 const categories = [
-  { name: "Consultation", image: "consultation.jpg" },
-  { name: "Stroke", image: "stroke.jpg" },
-  { name: "Skin conditions", image: "skin_conditions.jpg" },
-  { name: "Heart Disease", image: "heart_disease.jpg" },
-  { name: "Breathing problem", image: "breathing_problem.jpg" },
-  { name: "Emergency", image: "emergency.jpg" },
-  { name: "Diabetes", image: "diabetes.jpg" },
-  { name: "Bleeding", image: "bleeding.jpg" },
-  { name: "Arthritis", image: "arthritis.jpg" }
+  { name: "Consultation", image: img1 },
+  { name: "Stroke", image: img2 },
+  { name: "Skin conditions", image: img3 },
+  { name: "Heart Disease", image: img6 },
+  { name: "Breathing problem", image: img5 },
+  { name: "Emergency", image: img4 },
+  { name: "Diabetes", image: img7 },
+  { name: "Bleeding", image: img8 },
+  { name: "Arthritis", image: img9 }
 ];
 
 const Homepage = () => {
